@@ -1,0 +1,104 @@
+/* desktop view */
+body{
+	background: pink;
+}
+#main{
+	background: lightgreen;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: aqua;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 20%;
+	height: 60%;
+}
+.rightdiv{
+	background: bisque;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 55%;
+	padding: 2%;
+}
+img{
+	width: 70%;
+	height: 35%;
+	margin: 3%;
+	border-radius: 4%
+}
+/* mobile view */
+@media screen and (max-width: 480px) {
+body{
+	background: blue;
+}
+#main
+{
+	background: #DA1B7A;
+	margin: 3%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv
+{
+	background: #1BDA99;
+	margin: 2%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 98%;
+	height: 40%;
+}
+.rightdiv
+{
+	background: #9EBA0F;
+	border-radius: 2%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 96%;
+	padding: 2%;
+}
+img{
+		width: 50%;
+		height: 35%;
+		margin: 3%;
+		border-radius: 4%;
+}
+}
+/* tablet view */
+@media screen and (min-width: 481px) and (max-width: 700px) {
+body{
+	background: #050A58;
+}
+#main
+{
+	background: #26ADAC;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: #D00A37;
+	margin: 2%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 98%;
+	height: 40%;
+}
+.rightdiv{
+	background: #84A126;
+	border-radius: 5%;
+	box-shadow: 3px 3px 3px 3px;
+	width: 96%;
+	padding: 2%;
+	} 	
+img{
+		width: 50%;
+		height: 35%;
+		margin: 3%;
+		border-radius: 4%;
+	}
+}

@@ -1,0 +1,30 @@
+body{
+	background: #040774;
+}
+.main{
+	background: #DA1B7A;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+}
+.left{
+	background: aqua;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 20%;
+	height: 80%;
+}
+.right{
+	background: #1BDA99;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 55%;
+	padding: 2%;
+}
+img{
+	height: 50%;
+	width: 40%;
+}
+

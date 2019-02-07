@@ -1,0 +1,43 @@
+{
+	"profile":{
+		"img":"profile pic.jpg",
+		"name":"Rajitha Moka",
+		"roll":"16A31A0587",
+		"Institute":"Pragati Engineering College",
+		"Place":"Kakinada"
+	},
+	"career":{
+		"Info":"To secure a challenging position where i can explore my talents"
+	},
+	"education":[
+{
+    "Sno":"1",
+    "Degree":"B.Tech",
+    "Institute":"Pragati Engineering College",
+    "Yop":"2020"
+},
+{
+	"Sno":"2",
+    "Degree":"Intermediate",
+    "Institute":"Geetanjali Junior College",
+    "Yop":"2016"
+},
+{
+	"Sno":"3",
+    "Degree":"s.s.c",
+    "Institute":"St.Joseph's convent school",
+    "Yop":"2014"
+}	
+],
+     "languages":[
+     	{
+     		"lang":"english"
+     	},
+     	{
+     		"lang":"hindi"
+     	},
+     	{
+     		"lang":"telugu"
+     	}
+     ]	
+}
